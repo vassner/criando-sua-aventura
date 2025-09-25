@@ -1,0 +1,71 @@
+body {
+    background-color: #0a1a2d;
+    color: #f0e6d2;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('https://images.unsplash.com/photo-1502154703440-c7d27ee5df38?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+button {
+    background: linear-gradient(45deg, #8b4513, #a0522d);
+    color: #f0e6d2;
+    font-family: "Bai Jamjuree", sans-serif;
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(139, 69, 19, 0.4);
+    border: 2px solid #daa520;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(139, 69, 19, 0.6);
+    background: linear-gradient(45deg, #a0522d, #b8860b);
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 600px;
+    background: rgba(10, 26, 45, 0.95);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(218, 165, 32, 0.3);
+    backdrop-filter: blur(10px);
+    margin: 20px;
+    border: 3px solid #daa520;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+    border: 2px solid #daa520;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}

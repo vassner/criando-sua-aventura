@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Tesouro Pirata no Caribe</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Mapa do tesouro antigo">
+            <p>Você encontra um mapa do tesouro do lendário capitão Barba Negra em um baú antigo. O tesouro está escondido em uma ilha remota do Caribe.</p>
+            <button class="btn-proximo" data-proximo="1">Partir de Porto Royal</button>
+            <button class="btn-proximo" data-proximo="2">Seguir por Tortuga</button>
+        </div>
+        
+        <div class="passo" id="passo-1">
+            <img src="https://images.unsplash.com/photo-1502154703440-c7d27ee5df38?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Porto pirata movimentado">
+            <p>Em Porto Royal, você contrata uma tripulação. Dois navegadores experientes se oferecem para guiá-lo.</p>
+            <button class="btn-proximo" data-proximo="3">Contratar o velho marinheiro</button>
+            <button class="btn-proximo" data-proximo="4">Escolher a navegadora destemida</button>
+        </div>
+        
+        <div class="passo" id="passo-2">
+            <img src="https://images.unsplash.com/photo-1501952476817-d7ae22ea8e6d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Tortuga à noite">
+            <p>Em Tortuga, você precisa conseguir suprimentos. Onde buscar recursos?</p>
+            <button class="btn-proximo" data-proximo="5">Mercado do porto</button>
+            <button class="btn-proximo" data-proximo="6">Taberna dos piratas</button>
+        </div>
+        
+        <div class="passo" id="passo-3">
+            <img src="https://images.unsplash.com/photo-1502134249126-9f3755a50d78?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Marinheiro experiente">
+            <p>O velho marinheiro conhece rotas secretas e evita tempestades. Vocês chegam rapidamente às coordenadas.</p>
+            <button class="btn-proximo" data-proximo="7">Explorar a ilha</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Tempestade no mar">
+            <p>A navegadora leva por um caminho perigoso. Uma tempestade danifica o navio e vocês precisam voltar.</p>
+            <button class="btn-proximo" data-proximo="1">Voltar a Porto Royal</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="https://images.unsplash.com/photo-1580637250481-b78db3e6f84d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Mercado movimentado">
+            <p>No mercado, você encontra suprimentos de qualidade e informações valiosas sobre a ilha do tesouro.</p>
+            <button class="btn-proximo" data-proximo="7">Rumo à ilha!</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Taberna escura">
+            <p>Na taberna, piratas bêbados causam confusão. Você perde tempo e dinheiro.</p>
+            <button class="btn-proximo" data-proximo="5">Ir ao mercado</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Ilha tropical">
+            <p>Chegando à ilha, você encontra duas trilhas na densa floresta.</p>
+            <button class="btn-proximo" data-proximo="9">Trilha da praia</button>
+            <button class="btn-proximo" data-proximo="10">Trilha das montanhas</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="https://images.unsplash.com/photo-1501952476817-d7ae22ea8e6d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Voltando para Tortuga">
+            <p>Após o fracasso na taberna, você vai ao mercado para comprar suprimentos adequados.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a ilha</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Praia deserta">
+            <p>Na praia, você encontra uma caverna escondida atrás de uma cachoeira. Lá dentro, um baú antigo!</p>
+            <button class="btn-proximo" data-proximo="11">Abrir o baú</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="https://images.unsplash.com/photo-1452780212940-6f5c0d14d848?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Montanhas da ilha">
+            <p>Nas montanhas, você só encontra penhascos perigosos. Melhor voltar e tentar a praia.</p>
+            <button class="btn-proximo" data-proximo="12">Voltar para a praia</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="https://images.unsplash.com/photo-1578321272172-f6db38e3d4e5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Tesouro pirata">
+            <p>Dentro do baú: ouro, joias e artefatos valiosos! Você se torna lendário como o novo rei dos piratas.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Voltando para a praia">
+            <p>Voltando à praia, você encontra a caverna escondida. O tesouro está lá!</p>
+            <button class="btn-proximo" data-proximo="11">Abrir o baú do tesouro</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
